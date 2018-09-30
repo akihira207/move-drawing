@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>お絵かき広場</title>
+        <link rel="stylesheet" href="./resources/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./resources/css/playDrowing.css"/>
+        <script src="./resources/js/jquery-1.12.0.min.js"></script>
+        <script src="./resources/js/playDrowing.js"></script>
+    </head>
+    <body>
+        <div class="alert alert-success" role="alert">保存に成功しました。</div>
+        <div class="container">
+            <div class="row">
+                <canvas id="canvas" class="center-block" height="500px" width="600px"></canvas>
+                <div id="margin-top-20px" class="row">
+                    <div id="red" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('red');" ></div>
+                    <div id="blue" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('blue');" ></div>
+                    <div id="green" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('green');" ></div>
+                    <div id="yellow" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('yellow');" ></div>
+                    <div id="orange" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('orange');" ></div>
+                    <div id="purple" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('purple');" ></div>
+                    <div id="black" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('black');" ></div>
+                    <div id="skyBlue" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('skyblue');" ></div>
+                    <div id="white" class="col-xs-2 col-sm-4 col-md-4 color-common changeColor" onclick="MOVEDROWING.changeColor('white');" ></div>
+                    <input id="lineWidth" type="range" max="10" min="1" name="lineWidth" value="0">
+                </div>
+                <div id="margin-bottom-50px" class="row">
+                    <div id="registBtn" class="btn col-xs-12 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">保存する</div>
+                    <div id="resetBtn" class="btn col-xs-12 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">最初からやり直す</div>
+                    <div id="backBtn" class="btn col-xs-12 col-sm-3 col-md-3 col-sm-offset-1 col-md-offset-1">一覧ページへ戻る</div>
+                </div>
+                <div id="list" class="row">
+                    <div class="findAll"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
