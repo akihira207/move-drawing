@@ -177,7 +177,7 @@ var MOVEDROWING = {
 
         // 遷移先決定
         jQuery('#backBtn').on('click',function(){
-            that.actionPath("./");
+            that.actionPath("./index.html");
         });
 
         // リセットボタン押下イベント定義
