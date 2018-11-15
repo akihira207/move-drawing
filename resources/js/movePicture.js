@@ -132,7 +132,7 @@ var MOVEPICTURE = {
 
         // ローカルストレージから取得
         jQuery('#backBtn').on('click',function(){
-            that.actionPath("./");
+            that.actionPath("./index.html");
         });
 
         // ダンスボタン
