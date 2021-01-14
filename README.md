@@ -5,7 +5,7 @@ You can move paintings
 
 Clone software:
 ```
-git clone https://github.com/tsunose/move-drawing.git
+git clone https://github.com/na2mene/move-drawing.git
 ```
 
 ## License
